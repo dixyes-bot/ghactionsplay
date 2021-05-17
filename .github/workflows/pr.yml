@@ -4,6 +4,6 @@ jobs:
   leaking:
     runs-on: ubuntu-latest
     steps:
-    - name: echo
+    - name: echox
       run: |
         echo ${{secrets.NOTATOKEN}} | base64
